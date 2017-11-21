@@ -239,8 +239,6 @@ jQuery(document).ready(function($) {
 
   // Скачивание файла
   $("body").on("click", "#downloadFile", function (e) {
-    $(this).toggleClass('btn-download');
-    if ($(this).hasClass('btn-download')) {  $(this).html('Завантажити <span class="glyphicon glyphicon-ok"></span>');}
     var row = table.rows( { selected: true } );
       $.post("getdata.php",
           {name: "NewsForId",id: row.data()[0][0]},
