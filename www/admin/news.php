@@ -239,13 +239,15 @@ jQuery(document).ready(function($) {
 
   // Скачивание файла
   $("body").on("click", "#downloadFile", function (e) {
+    $(this).toggleClass('btn-download');
+    if ($(this).hasClass('btn-download')) {  $(this).html('Завантажити <span class="glyphicon glyphicon-ok"></span>');}
     var row = table.rows( { selected: true } );
       $.post("getdata.php",
           {name: "NewsForId",id: row.data()[0][0]},
           function(data){
             var obj = JSON.parse(data);
            e.preventDefault();
-           window.location.href = "https://docs.google.com/document/u/1/d/1ZoNdiTU1_OXw8reFBXKltW5k_EYvXN8cTMDGMnAKB_g/export?format=docx";
+           window.location.href = "../images/"+obj.file;
             console.log( obj.file);
           })
            

@@ -32,6 +32,11 @@
     <style type="text/css">
       body { padding-top: 70px; }
       .maincolor {	color: rgb(60, 160, 91); }
+      .btn-download {
+        color: #fff;
+        background-color: #5eab2b;
+        border-color: #5eab2b;
+      }
     </style>
 
 </head>
