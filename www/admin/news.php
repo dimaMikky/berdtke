@@ -246,7 +246,7 @@ jQuery(document).ready(function($) {
             var obj = JSON.parse(data);
            e.preventDefault();
            window.location.href = "https://docs.google.com/document/u/1/d/1ZoNdiTU1_OXw8reFBXKltW5k_EYvXN8cTMDGMnAKB_g/export?format=docx";
-            console.log( obj.file)
+            console.log( obj.file);
           })
            
   });
