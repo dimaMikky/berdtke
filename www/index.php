@@ -62,28 +62,12 @@
           <!--Правая колонка -->
 					<div class="span4">
             <?php  $lenta = 8; $typeLenta = 'main-right'; include("show_news.php"); ?>
-<<<<<<< HEAD
             <div class="sidebox-fixed">
               <img src="../pdf/teplogovua.png">
             </div>     
             <div class ="sidebox-fixed">
               <iframe width="335" height="235" src="https://www.youtube.com/embed/ySG21maeBnI" frameborder="0" gesture="media" allowfullscreen></iframe>
             </div>       
-||||||| merged common ancestors
-            <!--
-						<div class="sidebox">
-							<h3 class="sidebox-title blink_me"><span class="maincolor">Увага хлорування !</span></h3>
-							<p><?php echo $ABZ ?>Повідомляєм мешканців міста що <span class="maincolor"> 24 жовтня 2017 р. з 16 години  по 25 жовтня 2017 р. до 16 години</span> буде проводитись хлорування та промивка мереж водопостачання.<br><?php echo $ABZ ?>Підприємствам, організаціям, жителям міста зробити запас питної води. Мешканцям міста пропонуємо запастись питною водою та просимо вибачення за створені незручності.<br><?php echo $ABZ ?>Користування водою в період проведення хлорування <span class="maincolor">СУВОРО ЗАБОРОНЕНО</span>.</p>
-						</div>
-            -->
-=======
-            <div class="sidebox-fixed">
-              <img src="../pdf/teplogovua.png">
-            </div>     
-            <div class ="sidebox-fixed">
-              <iframe width="335" height="235" src="https://www.youtube.com/embed/RpYcOkYJaEs" frameborder="0" gesture="media" allowfullscreen></iframe>
-            </div>       
->>>>>>> 9af11b7c04c0cc0f78f80e691b7373dcf3194250
 					</div>
         </div>
       </div>

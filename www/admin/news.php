@@ -245,15 +245,7 @@ jQuery(document).ready(function($) {
           function(data){
             var obj = JSON.parse(data);
            e.preventDefault();
-<<<<<<< HEAD
            window.open("../images/"+obj.file);
-||||||| merged common ancestors
-           window.location.href = "../images/"+obj.file;
-            console.log( obj.file);
-=======
-           window.open("../images/"+obj.file);
-            console.log( obj.file);
->>>>>>> 9af11b7c04c0cc0f78f80e691b7373dcf3194250
           })
            
   });
