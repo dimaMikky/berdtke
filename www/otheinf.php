@@ -35,7 +35,7 @@
     <div class="divPanel page-content">
 
         <div class="breadcrumbs">
-            <a href="index.php">Головна</a> &nbsp;/&nbsp; <span>Інше</span>
+            <a href="index.php">Головна</a> &nbsp;/&nbsp; <span>Архів оголошень</span>
         </div> 
 
 		<div class="span12" id="divMain">
