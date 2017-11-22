@@ -245,7 +245,7 @@ jQuery(document).ready(function($) {
           function(data){
             var obj = JSON.parse(data);
            e.preventDefault();
-           window.location.href = "../images/"+obj.file;
+           window.open("../images/"+obj.file);
             console.log( obj.file);
           })
            

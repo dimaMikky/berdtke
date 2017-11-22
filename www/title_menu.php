@@ -33,7 +33,7 @@
 							<ul class="dropdown-menu">
 								<li><a href="invest.php">Інвестпроект</a></li>
 								<li><a href="publinf.php">Держзакупівлі</a></li>
-								<li><a href="otheinf.php">Інше</a></li>
+								<li><a href="otheinf.php">Архів оголошень</a></li>
 							</ul>							
 						</li>		<!-- Інвестпроект -->
 						<!--<li class="dropdown active"><a href="index.php"><?php echo $M_ITEM2 ?></a></li>-->	<!-- Новини       -->								

@@ -1,6 +1,6 @@
 /***** BASE CSS *****/
 	
-/* Цвет темы для выделения*/
+/* пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ*/
 .maincolor {
 	color: rgb(164, 39, 143);
 }
@@ -267,6 +267,9 @@ h1 {font-family: 'Source Sans Pro', sans-serif; font-weight: normal; font-style:
 
 .sidebar {;}
 
+.sidebox-fixed {-webkit-box-shadow:rgba(0, 0, 0, 0.298039) 0px 1px 3px;-moz-box-shadow:rgba(0, 0, 0, 0.298039) 0px 1px 3px;box-shadow:rgba(0, 0, 0, 0.298039) 0px 1px 3px;background-color:rgb(250, 250, 250);color:rgb(51, 51, 51);border-width:1px;border-style:solid;border-color:rgb(255, 255, 255);border-radius:3px;padding:18px;margin-top:28px;}
+
+
 .sidebox-title {line-height: 40px; font-weight: normal; font-style: normal; font-family: 'Source Sans Pro', sans-serif; color: rgb(51, 51, 51);}
 
 .sidebox a {color: rgb(164, 39, 143);}
@@ -467,7 +470,3 @@ h6,.page-content h6 a {font-weight: normal; font-style: normal; font-family: 'So
     .navbar .ddmenu {margin-top: 0px;margin-bottom: 0px;}
 
 }
-
-
-
-
