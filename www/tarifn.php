@@ -60,7 +60,7 @@
                     <hr>
 							
 					<div class="warning table-responsive">
-					<table class="table ttable-condensed table-hover" style="background-color:#FFFACD"> 
+					<table class="table ttable-condensed table-hover alert" style="background-color:#FFFACD"> 
 					  <thead>
 						<tr>
 							<th colspan="4" style="text-align:center"><span class="maincolor">Документ, яким введено тариф</span></td>						  													

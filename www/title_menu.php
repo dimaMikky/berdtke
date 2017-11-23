@@ -31,6 +31,7 @@
 						<li class="dropdown active">
 							<a href="#" class="dropdown-toggle"><?php echo $M_ITEM1 ?><b class="caret"></b></a> <!-- Інформація       -->
 							<ul class="dropdown-menu">
+								<li><a href="borg.php">Боржники</a></li>
 								<li><a href="invest.php">Інвестпроект</a></li>
 								<li><a href="publinf.php">Держзакупівлі</a></li>
 								<li><a href="otheinf.php">Архів оголошень</a></li>

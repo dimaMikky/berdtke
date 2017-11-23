@@ -63,7 +63,9 @@
 					<div class="span4">
             <?php  $lenta = 8; $typeLenta = 'main-right'; include("show_news.php"); ?>
             <div class="sidebox-fixed">
-              <img src="../pdf/teplogovua.png">
+            <a href="https://teplo.gov.ua" target="_blank">
+              <img src="../images/teplogovua.png">
+             </a> 
             </div>     
             <div class ="sidebox-fixed">
               <iframe width="335" height="235" src="https://www.youtube.com/embed/ySG21maeBnI" frameborder="0" gesture="media" allowfullscreen></iframe>

@@ -207,21 +207,44 @@ jQuery(document).ready(function($) {
   //Показываем первую вкладку, Инициализируем, Позиционируем на первую строчку
   $('[href="#tlist"]').tab('show');
   var table = $('#example').DataTable({
-          "paging":   true,
-          "ordering": true,
-          "info":     true,
-          "order": [[ 1, "desc" ]],
-          select: 'single',
-          "columns": [
-              { "width": "5%" },
-              { "width": "5%" },
-              { "width": "5%" },
-              { "width": "5%" },
-              null,
-              { "width": "15%" },
-              { "width": "5%" },
-            ]
-  });
+    "iDisplayLength": 17,
+      "aLengthMenu": [10, 17, 25, 50, 100],
+    "paging":   true,
+    "ordering": true,
+    "info":     true,
+    "order": [[ 1, "desc" ]],
+    "select": 'single',
+    "sPaginationType": "numbers",
+    "columns": [
+      { "width": "5%" },
+      { "width": "5%" },
+      { "width": "5%" },
+      { "width": "5%" },
+      null,
+      { "width": "15%" },
+      { "width": "5%" },
+    ],
+    "language": {
+      "search": "Пошук:",
+      "select": {
+              rows: {
+                  _: "Selected %d rows",
+                  1: ""
+              }
+          },		
+      "paginate": {
+        "first":      "First",
+        "last":       "Last",
+        "next":       "Слідуюча",
+        "previous":   "Попередня"
+      },
+      "lengthMenu": "Показувати _MENU_ рядків на сторінці",
+      "zeroRecords": "Nothing found - sorry",
+      "info": "",
+      "infoEmpty": "No records available",
+      "infoFiltered": "(filtered from _MAX_ total records)"
+      }	
+    });
   table.row(':eq(0)', { page: 'current' }).select(); // Позиционируемся на первую строчку
 
   function get_cookie ( cookie_name )
