@@ -14,7 +14,7 @@
                     
                     <p> 
                         <a href="contact.php" title="Terms of Use">Контакти</a><br />
-                        <a href="about-tke.php" title="Terms of Use">Про підприємство</a><br />
+                        <a href="about.php" title="Terms of Use">Про підприємство</a><br />
 						<!--Прохання Саши 2014-12-10
                         <a href="#" title="Privacy Policy">График прийому</a>
 						-->

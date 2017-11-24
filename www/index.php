@@ -63,7 +63,7 @@
 					<div class="span4">
             <?php  $lenta = 8; $typeLenta = 'main-right'; include("show_news.php"); ?>
             <div class="sidebox-fixed">
-            <a href="https://teplo.gov.ua" target="_blank">
+            <a href="//teplo.gov.ua" target="_blank">
               <img src="../images/teplogovua.png">
              </a> 
             </div>     

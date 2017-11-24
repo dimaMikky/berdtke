@@ -58,7 +58,7 @@
                     <hr>
 							
 					<div class="warning table-responsive">
-					<table class="table ttable-condensed table-hover alert" style="background-color:#FFFACD"> 
+					<table class="table ttable-condensed table-hover alert"> 
 					  <thead>
 						<tr>
 							<th colspan="2" style="text-align:center"><span class="maincolor">Група споживачів</span></td>						  

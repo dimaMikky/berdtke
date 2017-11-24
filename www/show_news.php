@@ -50,7 +50,13 @@ If ($num_rows>0) {
     }
     // Готовый документ
     if (!empty($row->file)) {
-      echo '<iframe src="http://docs.google.com/viewer?url=berdvdk.com.ua%2Fimages%2F'.$row->file.'&embedded=true" width="100%" height="600" style="border: none;"></iframe>';
+		$info = new SplFileInfo($row->file);
+		$ext = strtoupper($info->getExtension());
+		if ($ext=='JPG') {
+			echo '<img src=images/'.$row->file.'>';
+		} else {
+			echo '<iframe src="http://docs.google.com/viewer?url=berdtke.com.ua%2Fimages%2F'.$row->file.'&embedded=true" width="100%" height="600" style="border: none;"></iframe>';
+		}
     }
     // Текст
     if (empty($row->file) and !empty($row->text)) {echo $row->text;}
