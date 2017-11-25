@@ -192,6 +192,7 @@ jQuery(document).ready(function($) {
   };
   CKEDITOR.config.allowedContent = true;                // Сохраняем
   CKEDITOR.config.extraAllowedContent = 'span{class}';  // дополнительный HTML код
+  //CKEDITOR.config.extraPlugins = 'SimpleLink';			// Подключаем плагин ссылок
   CKEDITOR.replace( 'inputText' );
 
   //Плагин Даты

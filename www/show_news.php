@@ -11,12 +11,14 @@ $row = mysql_fetch_row($result);
 $total = $row[0];
 // Страничная навигация
 $total_page = ceil( $total / $newsonpage );
+/* тказываемся от паджинации сверху
 if ($total_page>1) {
   echo '<div class="pagination"><ul>';
   for( $i=1;$i<$total_page+1;$i++ ) {	echo "<li ".($page==$i ? "class=\"active\"":"")."><a href=\"?page=$i\">".$i."</a></li>";}
   echo '</ul></div>';
   //echo 'Всего новостей='.$total.'  Страниц= '.ceil( $total / $newsonpage ).' Страница N'.$page ;
 }
+*/
 if ($zip==1) {
   $result = mysql_query("SELECT * FROM news WHERE ks='$OWNERKS' and lenta='$lenta' and if(dataend='',0,dataend<'$today') ORDER BY main DESC, data DESC Limit ".$startlimit.", ".$newsonpage) or die('Ошибка БД');
 } else {
@@ -46,7 +48,7 @@ If ($num_rows>0) {
         echo ($row->main==1) ? '<h3>'.$textHead.'</h3>' : '<h3 class="text-success">'.$textHead.'</h3>'; //Заголовок для главной страницы
       }
     } else {
-      echo '<h4 class="text-success">'.$row->descr.'</h4>'; //Заголовок по умолчанию
+      echo '<h3 class="text-success">'.$row->descr.'</h3>'; //Заголовок по умолчанию
     }
     // Готовый документ
     if (!empty($row->file)) {
